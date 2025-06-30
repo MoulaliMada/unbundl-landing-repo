@@ -1,0 +1,343 @@
+/* Reset some basic styles 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 30px;
+  justify-content: space-between;
+  background: var(--Beige-BK, #fffaf5);
+  margin-bottom: 15px;
+}
+.header-logo {
+  width: 90px;
+}
+.header-book-appointment {
+  background-color: #f8943f;
+  border-color: #de6f0d;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.header-phone-btn {
+  background-color: white;
+  border-color: black;
+  color: black;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.book-appointment-section {
+  display: flex;
+  width: 100%;
+}
+
+.doctor-bg-container {
+  background-image: url("https://res.cloudinary.com/dssaftaaa/image/upload/v1751265085/empty-stomatology-orthodontist-bright-office-room-with-nobody-it_1_qreg1v.png");
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.doctor-detailes {
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent */
+  backdrop-filter: blur(10px); /* blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  width: 70%;
+  padding: 20px;
+  padding-left: 30px;
+}
+.doctor-detailes p {
+  padding: 0;
+  margin: 5px;
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-left: 0;
+}
+.doctor-detailes button {
+  margin-top: 10px;
+}
+.doctor-img {
+  position: absolute;
+  width: 190px;
+  align-self: flex-end;
+  left: 60%;
+}
+.book-appointment-form {
+  background-color: #fffaf5;
+  padding: 30px;
+  width: 40%;
+  font-family: "Roboto";
+}
+.book-appointment-form h1 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 5px;
+  color: rgb(55, 54, 54);
+}
+.book-appointment-form p {
+  font-size: 13px;
+  margin: 0;
+  color: rgb(89, 89, 89);
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+.book-appointment-form input {
+  width: 100%;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 25px;
+  border-color: rgb(201, 198, 198);
+  background-color: white;
+  margin-bottom: 10px;
+  height: 14px;
+  font-size: 12px;
+}
+.input-capcha {
+  width: 80% !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.input-p {
+  color: rgb(245, 245, 245) !important;
+  background-color: #462512;
+  width: 20%;
+  height: 20px;
+  padding: 3px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.input-checkbox {
+  width: 20px !important;
+}
+.book-appointment-form label {
+  font-size: 12px;
+  color: rgb(72, 72, 72);
+}
+.book-appointment-form button {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.features {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Roboto";
+  background-color: #fffaf5;
+  margin: 0;
+  display: flex;
+  overflow-x: auto;
+  overflow: hidden;
+}
+.features li {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+}
+.features li p {
+  padding: 0;
+  margin: 0;
+  color: #f58420;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.features li span {
+  color: #3b3b3b;
+}
+.features li img {
+  width: 25px;
+  margin-right: 7px;
+}
+.types-of-treatments-section {
+  font-family: "Roboto";
+}
+.types-of-treatments-section h2 {
+  text-align: center;
+  margin: 10px;
+}
+.types-of-treatments-section p {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+.root-canal-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.root-canal {
+  display: flex;
+  width: 50%;
+  border-style: solid;
+  border-color: #ffe0c4;
+  margin: 10px;
+  border-radius: 10px;
+}
+.root-canal h2 {
+  text-align: start;
+  font-size: 16px;
+  color: #232323;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.root-canal img {
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.root-canal p {
+  font-size: 14px;
+  color: #616161;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.root-canal ul {
+  font-size: 14px;
+  color: #464545;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.root-canal h1 {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.why-choose {
+  font-family: "Roboto";
+}
+.why-choose h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #0e0d0d;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.why-choose p {
+  color: rgb(70, 70, 70);
+  text-align: center;
+}
+.why-choose-container {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: start;
+  margin-top: 25px;
+}
+.why-choose-container ul {
+  width: 65%;
+  list-style-type: none;
+}
+.why-choose-container img {
+  width: 300px;
+}
+.why-choose-container ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.why-choose-container ul p {
+  width: 65%;
+  text-align: start;
+  color: black;
+  margin-top: 0;
+}
+.Safety-Precision-Innovation-section {
+  font-family: "Roboto";
+}
+.Safety-Precision-Innovation-section h1 {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(45, 44, 44);
+}
+.Safety-Precision-Innovation-container {
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  
+}
+.Safety-Precision-Innovation-section p {
+  text-align: center;
+  font-size: 17px;
+  color: rgb(81, 79, 79);
+}
+.Safety-bg-container {
+  background-image: url("https://res.cloudinary.com/dssaftaaa/image/upload/v1751299472/safety_xc0bsm.png");
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  background-position: center;
+  padding: 25px;
+  display: flex;
+  align-items: end;
+  margin-right: 30px;
+}
+.Safety-container {
+  background-color: #112230;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+}
+.Safety-container p {
+  color: rgb(187, 182, 182);
+  text-align: start;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.Safety-container button {
+  background-color: transparent;
+  color: orange;
+  font-weight: bold;
+  border: none;
+}
+.experience-bg-container{
+    background-image: url("https://res.cloudinary.com/dssaftaaa/image/upload/v1751301522/experience_ujfzix.png");
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  background-position: center;
+  padding: 25px;
+  display: flex;
+  align-items: end;
+  margin-right: 30px;
+}
+.precision-bg-container{
+    background-image: url("https://res.cloudinary.com/dssaftaaa/image/upload/v1751301683/precision_czb6yz.png");
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  background-position: center;
+  padding: 25px;
+  display: flex;
+  align-items: end;
+  margin-right: 30px;
+}
